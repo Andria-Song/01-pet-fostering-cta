@@ -1,0 +1,126 @@
+/* Body - set default font and remove default margins */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header - simple banner with site name */
+.site-header {
+  background-color: #1e7b8a;
+  padding: 20px;
+  text-align: left;
+}
+
+/* Site name - simple and readable */
+.site-name {
+  color: white;
+  font-size: 32px;
+  margin: 0;
+  font-weight: bold;
+}
+
+/* CTA section - tall banner with background image and overlay */
+.cta-section {
+  background: linear-gradient(135deg, rgba(212, 215, 109, 0.7) 0%, rgba(80, 160, 173, 0.7) 100%), url('img/cta-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  min-height: 400px;
+}
+
+/* Main heading - large and eye-catching */
+.cta-heading {
+  color: white;
+  font-size: 48px;
+  margin: 0 0 20px 0;
+  font-weight: bold;
+}
+
+/* Description text - readable and informative */
+.cta-description {
+  color: #e8f4f8;
+  font-size: 18px;
+  margin: 0 0 30px 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+/* CTA button - bright and stands out */
+.cta-button {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 15px 40px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+/* Button hover - simple color change for interactivity */
+.cta-button:hover {
+  background-color: #ff5252;
+}
+
+/* Foster info section - centered container with two columns */
+.foster-info-section {
+  padding: 50px 20px;
+}
+
+/* Info container - centers the content and limits width */
+.info-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Info columns - two equal columns using float */
+.info-column {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+/* Info image - fills its column */
+.info-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Info section heading and text */
+.foster-info-section h2 {
+  font-size: 32px;
+  color: #1e7b8a;
+  margin-top: 0;
+}
+
+.foster-info-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.foster-info-section ul {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* Footer - simple contact line */
+.site-footer {
+  background-color: #1e7b8a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  clear: both;
+}
+
+.footer-text {
+  margin: 6px 0;
+  font-size: 14px;
+}
